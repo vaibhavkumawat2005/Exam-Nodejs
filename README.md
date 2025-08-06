@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Task Manager - README</title>
-  
-</head>
-<body>
+
 
   <h1>🗂️ Task Manager App</h1>
   <p>
@@ -24,6 +16,16 @@
     <li>🌙 Glassmorphism Dark UI using custom CSS</li>
     <li>🧩 Modular architecture (Controllers, Models, Routes, Middleware, Views)</li>
   </ul>
+
+   <h2> Screenshot </h2>
+<img width="1919" height="966" alt="Screenshot 2025-08-06 105101" src="https://github.com/user-attachments/assets/c8d415ef-bd09-4312-a7ff-3bb8a1f43d4d" />
+<img width="1918" height="972" alt="Screenshot 2025-08-06 105045" src="https://github.com/user-attachments/assets/974b6102-fc75-4220-9f71-4874de295a89" />
+<img width="1901" height="970" alt="Screenshot 2025-08-06 105444" src="https://github.com/user-attachments/assets/23cfce1e-3d43-40c8-8885-ad8d00829fed" />
+<img width="1901" height="968" alt="Screenshot 2025-08-06 105508" src="https://github.com/user-attachments/assets/c8a481ca-b9fa-4c0c-816e-6114a42a4b35" />
+    <img width="1904" height="968" alt="Screenshot 2025-08-06 105522" src="https://github.com/user-attachments/assets/f379b395-e9fc-4b5c-adcc-18815e6628f1" />
+
+
+  
 
   <h2>📁 Project Structure</h2>
   <div class="codeblock">
@@ -125,16 +127,10 @@ module.exports = {
     <li>[ ] Email verification (optional)</li>
   </ul>
 
-  <h2>📄 License</h2>
-  <p>MIT License. Feel free to use and modify this project.</p>
-
-  <h2>🤝 Contributing</h2>
-  <p>Pull requests and suggestions are welcome!</p>
 
   <h2>📬 Contact</h2>
-  <p><strong>Author:</strong> Your Name</p>
-  <p><strong>Email:</strong> you@example.com</p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/yourusername">yourusername</a></p>
+  <p><strong>Author:</strong> Vaibhav</p>
+  <p><strong>Email:</strong> kumawatvaibhav05@gamil.com</p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/yourusername">vaibhavkumawat2005 </a></p>
 
-</body>
-</html>
+
