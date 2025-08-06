@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager - README</title>
+  
+</head>
+<body>
+
+  <h1>🗂️ Task Manager App</h1>
+  <p>
+    A full-stack Task Management System built with <strong>Node.js</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, and <strong>EJS</strong>. It includes JWT authentication, role-based access (admin/user), category management, task management, and a minimalist glassmorphism UI.
+  </p>
+
+  <h2>✨ Features</h2>
+  <ul>
+    <li>✅ User Authentication (Login/Register)</li>
+    <li>🔐 JWT Token + Cookie-based Authentication</li>
+    <li>👥 Role-based Access (Admin & User)</li>
+    <li>📝 Task Management (Create, Edit, Delete, List)</li>
+    <li>🗂️ Category Management</li>
+    <li>🔍 Multi-user support</li>
+    <li>🌙 Glassmorphism Dark UI using custom CSS</li>
+    <li>🧩 Modular architecture (Controllers, Models, Routes, Middleware, Views)</li>
+  </ul>
+
+  <h2>📁 Project Structure</h2>
+  <div class="codeblock">
+    <pre>
+task-manager/
+├── controllers/
+│   ├── authController.js
+│   ├── taskController.js
+│   └── categoryController.js
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   ├── User.js
+│   ├── Task.js
+│   └── Category.js
+├── public/
+│   └── style.css
+│  
+├── routes/
+│   ├── authRoutes.js
+│   ├── taskRoutes.js
+│   └── categoryRoutes.js
+├── views/
+│   ├── partials/
+│   │   └── navbar.ejs
+│   │   └── taskitem.ejs
+│   ├── categoryList.ejs
+│   ├── login.ejs
+│   ├── register.ejs
+│   └── taskForm.ejs
+│   └── taskList.ejs
+│   
+├── config/
+│   └── config.js
+├── app.js
+└── package.json
+    </pre>
+  </div>
+
+  <h2>🚀 Installation & Usage</h2>
+
+  <h3>1. Clone the Repository</h3>
+  <div class="codeblock"><code>git clone https://github.com/yourusername/task-manager.git</code></div>
+
+  <h3>2. Install Dependencies</h3>
+  <div class="codeblock"><code>npm install</code></div>
+
+  <h3>3. Configure MongoDB Connection</h3>
+  <div class="codeblock">
+    <pre>
+module.exports = {
+  MONGO_URI: "your_mongo_db_uri",
+  JWT_SECRET: "your_jwt_secret_key",
+  PORT: 5000
+};
+    </pre>
+  </div>
+
+  <h3>4. Start the Server</h3>
+  <div class="codeblock"><code>npm start</code></div>
+
+  <p>Visit <a href="http://localhost:5000">http://localhost:5000</a> in your browser.</p>
+
+  <h2>👨‍💻 Tech Stack</h2>
+  <ul>
+    <li><strong>Backend:</strong> Node.js, Express.js</li>
+    <li><strong>Database:</strong> MongoDB + Mongoose</li>
+    <li><strong>Frontend:</strong> EJS Templates</li>
+    <li><strong>Authentication:</strong> JWT + Cookies</li>
+    <li><strong>Styling:</strong> Custom CSS (Glassmorphism + Light Mode)</li>
+  </ul>
+
+  <h2>🔐 Roles & Access</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Role</th>
+        <th>Features</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>User</td>
+        <td>Login, Manage personal tasks</td>
+      </tr>
+      <tr>
+        <td>Admin</td>
+        <td>Manage users, categories, and view all user tasks</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>🧪 TODO / Improvements</h2>
+  <ul>
+    <li>[ ] Task priority & due date</li>
+    <li>[ ] Task completion status toggle</li>
+    <li>[ ] Admin dashboard metrics</li>
+    <li>[ ] Responsive UI enhancements</li>
+    <li>[ ] Email verification (optional)</li>
+  </ul>
+
+  <h2>📄 License</h2>
+  <p>MIT License. Feel free to use and modify this project.</p>
+
+  <h2>🤝 Contributing</h2>
+  <p>Pull requests and suggestions are welcome!</p>
+
+  <h2>📬 Contact</h2>
+  <p><strong>Author:</strong> Your Name</p>
+  <p><strong>Email:</strong> you@example.com</p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/yourusername">yourusername</a></p>
+
+</body>
+</html>
